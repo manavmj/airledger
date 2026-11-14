@@ -1,0 +1,5 @@
+station,timestamp,pollutant,value,unit
+TEST Bad,2026-11-01,PM2.5,-5,ug/m3
+TEST Bad,not-a-date,PM2.5,25,ug/m3
+TEST Bad,2026-11-03,PM2.5,,ug/m3
+TEST Bad,2026-11-04,NO2,20,ppb

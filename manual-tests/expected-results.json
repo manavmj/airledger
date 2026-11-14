@@ -1,0 +1,115 @@
+{
+  "synthetic": true,
+  "files": {
+    "01_clean_baseline.csv": {
+      "total": 6,
+      "included": 6,
+      "excluded": 0,
+      "flagged": 0,
+      "stations": 2,
+      "means": {
+        "TEST North|PM2.5": 30,
+        "TEST South|PM2.5": 15
+      }
+    },
+    "02_comparison_next_period.csv": {
+      "total": 6,
+      "included": 6,
+      "excluded": 0,
+      "flagged": 0,
+      "stations": 2,
+      "means": {
+        "TEST North|PM2.5": 60,
+        "TEST South|PM2.5": 15
+      }
+    },
+    "03_messy_readings.csv": {
+      "total": 10,
+      "included": 4,
+      "excluded": 6,
+      "flagged": 6,
+      "stations": 3,
+      "means": {
+        "TEST North|PM2.5": 27,
+        "TEST South|PM2.5": 12,
+        "TEST East|PM10": 50
+      }
+    },
+    "04_no_averaging_period.csv": {
+      "total": 2,
+      "included": 2,
+      "excluded": 0,
+      "flagged": 0,
+      "stations": 1,
+      "means": {
+        "TEST North|PM2.5": 90
+      },
+      "no_reference": true
+    },
+    "05_all_invalid.csv": {
+      "total": 4,
+      "included": 0,
+      "excluded": 4,
+      "flagged": 4,
+      "stations": 0,
+      "means": {},
+      "no_reference": true
+    },
+    "06_fixed_columns_and_dates.tsv": {
+      "total": 3,
+      "included": 3,
+      "excluded": 0,
+      "flagged": 0,
+      "stations": 1,
+      "means": {
+        "TEST Date|PM2.5": 20
+      },
+      "no_reference": true,
+      "mapping_overrides": {
+        "value": "PM25_reading"
+      },
+      "options": {
+        "date_order": "DMY",
+        "pollutant": "PM2.5",
+        "unit": "ug/m3"
+      }
+    },
+    "07_outlier_retained.csv": {
+      "total": 5,
+      "included": 5,
+      "excluded": 0,
+      "flagged": 1,
+      "stations": 1,
+      "means": {
+        "TEST Outlier|PM2.5": 208.6
+      },
+      "no_reference": true
+    },
+    "08_security_text.csv": {
+      "total": 3,
+      "included": 3,
+      "excluded": 0,
+      "flagged": 0,
+      "stations": 2,
+      "means": {},
+      "no_reference": true
+    },
+    "09_duplicate_headers.csv": {
+      "import_error": "unique"
+    },
+    "10_formula_cells.xlsx": {
+      "import_error": "Formula cells"
+    },
+    "11_clean_baseline.xlsx": {
+      "total": 6,
+      "included": 6,
+      "excluded": 0,
+      "flagged": 0,
+      "stations": 2,
+      "means": {
+        "TEST North|PM2.5": 30,
+        "TEST South|PM2.5": 15
+      }
+    }
+  }
+}

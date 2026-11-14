@@ -1,0 +1,7 @@
+station,timestamp,pollutant,value,unit,duration_hours
+TEST North,2026-11-04,PM2.5,40,ug/m3,24
+TEST North,2026-11-05,PM2.5,60,ug/m3,24
+TEST North,2026-11-06,PM2.5,80,ug/m3,24
+TEST South,2026-11-04,PM2.5,10,ug/m3,24
+TEST South,2026-11-05,PM2.5,15,ug/m3,24
+TEST South,2026-11-06,PM2.5,20,ug/m3,24

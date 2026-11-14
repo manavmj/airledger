@@ -1,0 +1,6 @@
+station,timestamp,pollutant,value,unit,duration_hours
+TEST Outlier,2026-11-01,PM2.5,10,ug/m3,1
+TEST Outlier,2026-11-02,PM2.5,11,ug/m3,1
+TEST Outlier,2026-11-03,PM2.5,12,ug/m3,1
+TEST Outlier,2026-11-04,PM2.5,10,ug/m3,1
+TEST Outlier,2026-11-05,PM2.5,1000,ug/m3,1

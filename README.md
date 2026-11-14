@@ -23,6 +23,8 @@ Open **http://127.0.0.1:8000**. On Windows, activate with `.venv\Scripts\activat
 
 ### Connect Gemini
 
+For exact Windows commands and connection checks, see [docs/API_KEYS.md](docs/API_KEYS.md). For ready-to-upload synthetic CSV/TSV/XLSX files with expected results, see [manual-tests/README.md](manual-tests/README.md).
+
 In the same shell, **before starting the server**, set `GEMINI_API_KEY` to your own Google Gemini API key. Set `GEMINI_MODEL` if you need a different compatible model; the default is `gemini-2.5-flash`. `.env.example` documents the available settings; `.env` files are **not automatically loaded**. Use your shell or a secret manager, never client JavaScript or a committed file.
 
 The header reports whether a key is configured, not whether provider authentication has been verified. A live request may fail because of an invalid key, model access, quota, or network conditions. Failed AI calls do not save a brief and do not silently fall back to rules. An explicitly labelled rules-based mode remains available without credentials.
