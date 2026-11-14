@@ -1,0 +1,11 @@
+Location,Observed at,Parameter,Reading,Units,Averaging hours
+TEST North,01/11/2026,PM2.5,0.024,mg/m3,24
+TEST North,02/11/2026,PM2.5,30,µg/m³,24
+TEST North,02/11/2026,PM2.5,30,ug/m3,24
+TEST South,01/11/2026,PM2.5,12,ug/m3,24
+TEST South,02/11/2026,PM2.5,,ug/m3,24
+TEST West,01/11/2026,NO2,20,ppb,1
+TEST East,01/11/2026,PM10,-4,ug/m3,24
+TEST East,02/11/2026,PM10,50,ug/m3,24
+TEST Conflict,01/11/2026,PM2.5,40,ug/m3,24
+TEST Conflict,01/11/2026,PM2.5,80,ug/m3,24

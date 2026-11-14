@@ -1,0 +1,7 @@
+{
+  "name": "airledger-local-preview",
+  "private": true,
+  "scripts": {
+    "dev": ".venv/bin/python scripts/dev.py"
+  }
+}
