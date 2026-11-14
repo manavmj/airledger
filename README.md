@@ -119,6 +119,6 @@ This is a **local hackathon application**, not a production multi-tenant service
 
 ## Project status
 
-This repository packages the locally built application for private source download. It does not host a running website. Download using GitHub's **Code → Download ZIP**, extract the folder, and run `start_windows.bat` on Windows. Browser-based visual/accessibility verification and live Gemini validation were unavailable in this environment; automated API/data tests and syntax checks are provided. No claim of certified accessibility or zero hallucinations is made.
+This source package contains the locally built application. It does not host a running website. Extract the entire ZIP and run `start_windows.bat` on Windows; see `START_HERE.txt` for the shortest setup path. Browser-based visual/accessibility verification and live Gemini validation were unavailable in this environment; automated API/data tests and syntax checks are provided. No claim of certified accessibility or zero hallucinations is made.
 
 Reference: [WHO Global Air Quality Guidelines, 2021](https://www.who.int/publications/i/item/9789240034228).

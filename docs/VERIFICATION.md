@@ -30,4 +30,4 @@ No browser-control tool was available through the managed preview workflow, so n
 
 No Gemini API key or real civic dataset was provided. Live provider availability, authentication, quality of model selections, translation review and source-monitor accuracy remain unverified. Rules-based briefs work without credentials and are clearly labelled. Tests use synthetic observations and isolated provider doubles, never simulated production responses.
 
-Initial verification was completed locally. The subsequent private GitHub handoff distributes source files only; it does not deploy a running website.
+Verification was completed locally. This source package distributes application files only; it does not deploy a running website. Download the repository ZIP, extract it completely, and follow START_HERE.txt to run the application on your own computer.

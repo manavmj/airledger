@@ -1,0 +1,30 @@
+AIRLEDGER — LOCAL PROJECT
+
+WINDOWS
+1. Install Python 3.11 or newer from https://www.python.org/downloads/
+   Select "Add Python to PATH" during installation.
+2. Extract this entire ZIP into a normal folder (do not launch inside the ZIP).
+3. Double-click start_windows.bat.
+4. Keep the terminal window open. The first start downloads Python dependencies.
+5. Your default browser opens http://127.0.0.1:8765 once the server is ready.
+   You can open this same address in Chrome while the terminal remains running.
+
+The app runs on your own computer. Opening the URL before running the launcher
+will show "connection refused". No GitHub account or Node installation is needed.
+
+GENAI
+Without a Gemini API key, explicitly labelled rules-based briefs are available.
+For GenAI, set GEMINI_API_KEY in your Windows environment before launching.
+See README.md for full instructions. Never put API keys in frontend files.
+
+TESTS
+After the Windows launcher has installed dependencies, open a terminal in this
+folder and run:
+  .venv\Scripts\python.exe -m unittest discover -s tests -v
+
+OTHER SYSTEMS
+See README.md for the Python virtual-environment setup and run commands.
+
+No real observations are preloaded. The CSV under tests/fixtures is synthetic
+test data only. README.md and docs/TESTING.md explain supported table formats,
+evidence traceability, limitations and acceptance tests.
